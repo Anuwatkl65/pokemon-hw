@@ -1,20 +1,30 @@
-<<<<<<< HEAD
-# pokemon-hw
-=======
-# hw
+ตรวจสอบด้วย:
 
-A new Flutter project.
+flutter --version
+flutter doctor
 
-## Getting Started
+วิธีโคลนและรัน (Quick Start)
+1) โคลนโปรเจกต์
+git clone https://github.com/Anuwatkl65/pokemon-hw.git
+cd pokemon-hw
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+ถ้าตั้งค่า SSH ไว้แล้ว:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+git clone git@github.com:Anuwatkl65/pokemon-hw.git
+cd pokemon-hw
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 369218f (first)
+2) ติดตั้งแพ็กเกจ
+flutter pub get
+
+3) เลือกอุปกรณ์/ตัวรัน
+
+ดูอุปกรณ์ที่มี:
+
+flutter devices
+
+4) รันแอป
+
+Web (แนะนำสำหรับเริ่มต้นเร็ว ๆ):
+
+flutter run -d chrome
